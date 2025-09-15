@@ -1,0 +1,9 @@
+function verificarIdade(idade: number): void {
+  if (idade >= 18) {
+    console.log("Você é de maior.");
+  } else {
+    console.log("Você é de menor.");
+  }
+}
+
+verificarIdade(16);
